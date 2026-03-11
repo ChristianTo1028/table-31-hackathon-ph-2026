@@ -1,0 +1,60 @@
+{
+  "work_items": [
+    {
+      "id": 1001,
+      "title": "Implement authentication module",
+      "state": "Active",
+      "assigned_to": "Team Alpha",
+      "remaining_hours": 8,
+      "required_skill": "Backend",
+      "priority": 1
+    },
+    {
+      "id": 1002,
+      "title": "Fix UI layout on dashboard",
+      "state": "Active",
+      "assigned_to": "Team Beta",
+      "remaining_hours": 4,
+      "required_skill": "Frontend",
+      "priority": 2
+    },
+    {
+      "id": 1003,
+      "title": "Write integration tests for payment flow",
+      "state": "Active",
+      "assigned_to": "Team Gamma",
+      "remaining_hours": 6,
+      "required_skill": "QA",
+      "priority": 1
+    },
+    {
+      "id": 1004,
+      "title": "Deploy staging environment",
+      "state": "New",
+      "assigned_to": "",
+      "remaining_hours": 3,
+      "required_skill": "DevOps",
+      "priority": 2
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "alpha",
+      "name": "Team Alpha",
+      "skills": ["Backend", "DevOps"],
+      "available_hours": 10
+    },
+    {
+      "team_id": "beta",
+      "name": "Team Beta",
+      "skills": ["Frontend", "UX"],
+      "available_hours": 6
+    },
+    {
+      "team_id": "gamma",
+      "name": "Team Gamma",
+      "skills": ["QA", "Backend"],
+      "available_hours": 8
+    }
+  ]
+}
