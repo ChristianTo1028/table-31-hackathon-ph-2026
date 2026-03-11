@@ -1,3 +1,9 @@
-ghost-market-api/__pycache__
-ghost-market-api/**/__pycache__
-ghost-market-api/**/*.pyc
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+dist/
+build/
+.venv/
